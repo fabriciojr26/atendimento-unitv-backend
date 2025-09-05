@@ -1,3 +1,4 @@
+// Forçar atualização para a Koyeb
 import express from 'express';
 import fetch from 'node-fetch';
 import cors from 'cors';
@@ -85,3 +86,4 @@ app.post('/api/capi', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor CAPI a correr na porta ${PORT}`);
 });
+
